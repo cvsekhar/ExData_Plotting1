@@ -27,7 +27,7 @@ plot4ToPng <- function(filename="household_power_consumption.txt"){
   par(mfrow=c(2,2))
   plot2(data,"")  
   plot4TopRight(data)
-  plot3(data)
+  plot3(data,"n")
   plot4BottomRight(data)
   dev.off()
 }
